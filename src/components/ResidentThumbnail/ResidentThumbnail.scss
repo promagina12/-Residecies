@@ -1,0 +1,35 @@
+.residence-class {
+    padding: 16px;
+    background-color: var(--ion-color-white);
+    border-radius: 7px;
+    opacity: 6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 340px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    position: absolute;
+    z-index: 16;
+    bottom: -55px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 1px #000;
+
+    .residence-class-col {
+        text-align: center;
+        width: 49px;
+        margin: 0 auto;
+        padding: 0;
+
+        ion-label {
+            color: #000;
+        }
+
+        img {
+            padding: 0;
+            border-radius: 8px;
+        }
+    }
+}
